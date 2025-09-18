@@ -10,26 +10,26 @@ package grupo3_tp5;
  * @author Adrian
  */
 public class Contacto {
-    private double DNI;
+    private int dni;
     private String nombre;
     private String apellido;
     private String Ciudad ;
-    private String dirección;
+    private String direccion;
 
-    public Contacto(double DNI, String nombre, String apellido, String Ciudad, String dirección) {
-        this.DNI = DNI;
+    public Contacto(int dni, String nombre, String apellido, String Ciudad, String direccion) {
+        this.dni = dni;
         this.nombre = nombre;
         this.apellido = apellido;
         this.Ciudad = Ciudad;
-        this.dirección = dirección;
+        this.direccion = direccion;
     }
 
-    public double getDNI() {
-        return DNI;
+    public int getDni() {
+        return dni;
     }
 
-    public void setDNI(double DNI) {
-        this.DNI = DNI;
+    public void setDni(int dni) {
+        this.dni = dni;
     }
 
     public String getNombre() {
@@ -56,12 +56,12 @@ public class Contacto {
         this.Ciudad = Ciudad;
     }
 
-    public String getDirección() {
-        return dirección;
+    public String getDireccion() {
+        return direccion;
     }
 
-    public void setDirección(String dirección) {
-        this.dirección = dirección;
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
     }
     
     
